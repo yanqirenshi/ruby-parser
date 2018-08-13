@@ -20,7 +20,7 @@ ruby のパーサーかな？
 これを利用するのだろう。
 
 | *Package*       | *Operator*        |
-|-----------------+-------------------|
+|-----------------|-------------------|
 | ruby-parser.ast | expr-to-sexp      |
 |                 | stmt-to-sexp      |
 |                 | ast-to-sexp       |

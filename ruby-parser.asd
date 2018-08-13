@@ -12,8 +12,11 @@
                #:parse-number)
   :components ((:module "src"
                 :serial t
-                :components ((:file "packages")
-                             (:file "ast")
+                :components ((:module "src"
+                              :serial t
+                              :components ((:file "package")
+                                           (:file "ast")))
+                             (:file "package")
                              (:file "util")
                              (:file "specials")
                              (:file "source")
